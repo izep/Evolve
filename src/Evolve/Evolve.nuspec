@@ -6,6 +6,7 @@
     <authors>Philippe Lécaillon</authors>
     <owners>Philippe Lécaillon</owners>
     <licenseUrl>https://github.com/lecaillon/Evolve/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://github.com/lecaillon/Evolve/raw/master/logo128.png</iconUrl>
     <projectUrl>https://github.com/lecaillon/Evolve</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Database migration tool for .NET. Inspired by Flyway.</summary>
