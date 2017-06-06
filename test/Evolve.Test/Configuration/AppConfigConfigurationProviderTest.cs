@@ -1,8 +1,8 @@
-﻿using Evolve.Configuration;
-using Evolve.Migration;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Evolve.Configuration;
+using Evolve.Migration;
 using Xunit;
 
 namespace Evolve.Test.Configuration
