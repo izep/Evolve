@@ -1,4 +1,5 @@
-﻿using Evolve.Utilities;
+﻿using System.Linq;
+using Evolve.Utilities;
 using Xunit;
 
 namespace Evolve.Core.Test.Utilities
@@ -24,6 +25,15 @@ namespace Evolve.Core.Test.Utilities
         public void When_migration_name_format_is_incorrect_Throws_EvolveConfigurationException(string script)
         {
             Assert.Throws<EvolveConfigurationException>(() => MigrationUtil.ExtractVersionAndDescription(script, TestContext.SqlMigrationPrefix, TestContext.SqlMigrationSeparator, out string version, out string description));
+        }
+
+        [Fact(DisplayName = "Prout")]
+        public void Prout()
+        {
+            string sql1 = "SELECT * FROM DUAL ; "
+                        + " SELECT * FROM DUAL;";
+
+            var statements = MigrationUtil.SplitSqlStatements(sql1, ";").ToList();
         }
     }
 }
