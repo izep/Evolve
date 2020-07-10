@@ -35,7 +35,7 @@
     <Reference Include="Microsoft.Build.Utilities.v4.0" />
     <PackageReference Include="Microsoft.DotNet.PlatformAbstractions" Version="1.0.3" />
     <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="1.0.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" /> <!-- must be this 9.0.1 exact version because of Microsoft.Extensions.DependencyModel dependency -->
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" /> <!-- must be this 9.0.1 exact version because of Microsoft.Extensions.DependencyModel dependency -->
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Build\netcoreapp1.0\MSBuildFull\" />
